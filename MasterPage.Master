@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="Student_Schedule.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Course Organizer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/CourseOrganizerStyles.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="masterForm" runat="server" class="form-horizontal">
+        <div class="container">
+            <header  class="jumbotron">
+                <h1 id="jumbotronHeader">Course Organizer</h1>
+            </header>
+            <main>
+                <asp:ContentPlaceHolder ID="mainPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+            </main>
+                       <%--Random Tip Footer--%>
+            <footer id="masterfooter">
+                <div class="form-group">
+                    <div id="footerTip" class="col-md-12">
+                        <asp:Label ID="lblTip" runat="server" Text="Tip:  "></asp:Label>
+                        <asp:Label ID="lblTipMessage" runat="server" 
+                            Text="Welcome you may add a new task or view your schedule" ></asp:Label>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
