@@ -1,0 +1,92 @@
+﻿/*Site Styles*/
+html {
+    height: 100%;
+    background-color: #DDDDDD;
+}
+
+form{
+    background-color: #DDDDDD;
+    
+}
+.form-control {
+    border: 1px solid;
+}
+.errorLabel {
+    color: red;
+    font-family: Chiller;
+    font-size: 25px;
+    font-weight: 600;
+}
+  /*Nav Bar Styles*/
+
+#navbarLinks>li>a{
+    font-family: Chiller;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    text-hover;
+}
+#navbarLinks>li>a:hover{
+    color: #777777;
+}
+.navbar {
+    background-color: #f0f0f0;
+    border: solid 1px;
+}
+
+/*Master Page Styles*/
+
+#jumbotronHeader{
+    font-family: Chiller;
+    color: black;
+    font-weight: 800;
+    text-align: left;
+    font-size: 110px;
+    padding-top: -1em;
+    padding-bottom: 0em;
+    padding-left: 0;
+}
+
+header.jumbotron {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #bb0a1e;
+    margin-top: 20px;
+}
+footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #bb0a1e;
+    
+}
+#footerTip, #lblTip, #lblTipMessage {
+    color: black;
+    font-weight: 600;
+    font-family: Chiller;
+    font-size: 35px;
+    padding-left: .5em;
+}
+
+/*Start Page Styles*/
+
+#mainPlaceHolder_ddlCourseSelector{
+  font-size: 22px;
+  padding: .2em;
+  font-family: Georgia;
+}
+
+/*Entry Form Styles*/
+.pageHeader{
+    font-family: Chiller;
+    font-weight: 700;
+    font-size: 38px;
+    padding: 0;
+}
+
+
+/*Schedule Page Styles*/
+
+.scheduleButtons{
+    padding-top:2em;
+}
+
